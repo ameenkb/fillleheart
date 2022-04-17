@@ -74,9 +74,11 @@ font-size: 20px;}
 .text{margin-bottom: 0px;}
 .subtext{letter-spacing:2px}
 @media only screen and (max-width: 600px) {
-h1{font-size: 45px;margin-bottom: -20px;}
-h2{font-size: 40px}
-.extra{ top: 57%;font-size: 25px;}
+.top{margin-top: 10px;}
+h1{font-size: 12vw;margin-bottom: -20px;}
+h2{font-size: 10vw}
+h3{margin-bottom: -20px;}
+.extra{ top: 60%; font-size: 5vw;}
 .subtext{display: none;}
 .column {
 display: block;
