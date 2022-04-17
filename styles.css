@@ -1,0 +1,94 @@
+@font-face {
+font-family: NatashaWalker;
+src: url(font/nw.ttf);
+}
+body, html {
+font-family: "NatashaWalker";
+text-align: center;
+background-color:#FF9933;
+color: white;
+letter-spacing:4px
+}
+#bgVideo {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+}
+.top {
+margin-top: -6px;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+height: auto;
+width: 100%;
+font-size: 35px;
+padding-top: 00px;
+}
+.bottom {
+position:  absolute;
+bottom: 0px;
+left: 0;
+right: 0;
+height: auto;
+width: 100%;
+font-size: 25px;
+}
+.middle {
+background-color: rgba(255, 255, 255, 0.15);
+position: fixed;
+top: 30%;
+left: 0;
+right: 0;
+height: auto;
+width: 100%;
+font-size: 30px;
+}
+.extra {
+position: fixed;
+top: 50%;
+left: 0;
+right: 0;
+height: auto;
+width: 100%;
+font-size: 30px;
+}
+.fa {
+padding: 0px 5px;
+padding-bottom: 20px;
+font-size: 25px;
+width: 25px;
+text-decoration: none;
+color: white
+}
+.footer{
+margin-bottom:0px}
+h1{margin-bottom: -6px;}
+h3{margin-bottom: -20px;}
+h2{letter-spacing: 6px}
+.caption,.subtext {
+font-size: 20px;}
+.column{display: none;}
+.text{margin-bottom: 0px;}
+.subtext{letter-spacing:2px}
+@media only screen and (max-width: 600px) {
+.extra{ top: 57%;font-size: 25px;}
+.subtext{display: none;}
+.column {
+display: block;
+float: left;
+width: 50%;
+font-size: 15px;
+letter-spacing:2px
+}
+.footer{display: none;}
+.fa {font-size: 30px;padding-top: 2px;}
+}
+@media only screen and (max-height: 600px) {
+.top{position: relative;}
+.middle{position: relative;}
+.extra{position: relative;}
+.bottom{position: relative;}
+}
