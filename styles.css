@@ -1,100 +1,188 @@
 @font-face {
-font-family: NatashaWalker;
-src: url(font/nw.ttf);
+	font-family: NatashaWalker;
+	src: url(font/nw.ttf);
 }
 
-body, html {
-font-family: "NatashaWalker";
-text-align: center;
-background-color:#FF9933;
-color: white;
-letter-spacing:1px;
+body,
+html {
+	font-family: "NatashaWalker";
+	text-align: center;
+	background-color: #FF9933;
+	color: white;
+	letter-spacing: 1px;
 }
+
 #bgVideo {
-position: fixed;
-right: 0;
-bottom: 0;
-min-width: 100%; 
-min-height: 100%;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 }
+
 .top {
-margin-top: -6px;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-height: auto;
-width: 100%;
-font-size: 35px;
-padding-top: 00px;
+	margin-top: -6px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100%;
+	font-size: 35px;
+	padding-top: 00px;
 }
+
 .bottom {
-position:  absolute;
-bottom: 0px;
-left: 0;
-right: 0;
-height: auto;
-width: 100%;
-font-size: 25px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100%;
+	font-size: 25px;
 }
+
 .middle {
-background-color: rgba(255, 255, 255, 0.15);
-position: fixed;
-top: 30%;
-left: 0;
-right: 0;
-height: auto;
-width: 100%;
-font-size: 30px;
+	background-color: rgba(255, 255, 255, 0.15);
+	position: fixed;
+	top: 30%;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100%;
+	font-size: 30px;
 }
+
 .extra {
-position: fixed;
-top: 50%;
-left: 0;
-right: 0;
-height: auto;
-width: 100%;
-font-size: 30px;
+	position: fixed;
+	top: 60%;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100%;
+	font-size: 30px;
 }
+
 .fa {
-padding: 0px 5px;
-padding-bottom: 20px;
-font-size: 25px;
-width: 25px;
-text-decoration: none;
-color: white
+	padding: 0px 5px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	width: 25px;
+	text-decoration: none;
+	color: white
 }
-.footer{letter-spacing:2px;
-margin-bottom:0px}
-h1{margin-bottom: -20px; font-weight:normal}
-h3{letter-spacing: 3px;margin-bottom: -20px;}
-h2{letter-spacing: 6px}
-.caption {font-size: 25px; letter-spacing:5px;}
-.column{display: none;}
-.text{margin-bottom: 0px;}
-.subtext{font-size: 20px; letter-spacing:2px}
+
+.footer {
+	letter-spacing: 2px;
+	margin-bottom: 0px
+}
+
+h1 {
+	margin-bottom: -20px;
+	font-weight: normal
+}
+
+h3 {
+	letter-spacing: 3px;
+	margin-bottom: -20px;
+}
+
+h2 {
+	font-weight: normal;
+	letter-spacing: 6px
+}
+
+.caption {
+	font-size: 25px;
+	letter-spacing: 4.2px;
+}
+
+.column {
+	display: none;
+}
+
+.text {
+	margin-bottom: 0px;
+}
+
+.subtext {
+	font-size: 20px;
+	letter-spacing: 2px
+}
+
+.logo {
+	margin-top: 40px;
+	width: 500px
+}
 
 @media only screen and (max-width: 600px) {
-.top{margin-top: 10px;}
-h1{font-size: 12vw}
-h2{font-size: 10vw}
-h3{margin-bottom: -20px;}
-.caption {font-size: 4.2vw; letter-spacing:4.5px;}
-.extra{ top: 57%; font-size: 6vw;}
-.subtext{display: none;}
-.column {
-display: block;
-float: left;
-width: 50%;
-font-size: 15px;
-letter-spacing:1px
+	.top {
+		margin-top: 10px;
+	}
+
+	h1 {
+		font-size: 12vw
+	}
+
+	h2 {
+		font-size: 10vw
+	}
+
+	h3 {
+		margin-bottom: -20px;
+	}
+
+	.caption {
+		font-size: 4.2vw;
+		letter-spacing: 1vw;
+	}
+
+	.extra {
+		top: 65%;
+		font-size: 6vw;
+	}
+
+	.subtext {
+		display: none;
+	}
+
+	.column {
+		display: block;
+		float: left;
+		width: 50%;
+		font-size: 15px;
+		letter-spacing: 1px
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.fa {
+		font-size: 30px;
+		padding-top: 2px;
+	}
+
+	.logo {
+		margin-top: 40px;
+		width: 90vw
+	}
 }
-.footer{display: none;}
-.fa {font-size: 30px;padding-top: 2px;}
-}
+
 @media only screen and (max-height: 600px) {
-.top{position: relative;}
-.middle{position: relative;}
-.extra{position: relative;}
-.bottom{position: relative;}
+	.top {
+		position: relative;
+	}
+
+	.middle {
+		position: relative;
+	}
+
+	.extra {
+		position: relative;
+	}
+
+	.bottom {
+		position: relative;
+	}
 }
