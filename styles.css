@@ -167,6 +167,8 @@ h2 {
 		margin-top: 40px;
 		width: 75vw
 	}
+
+.premium {width: 60vw}
 }
 
 @media only screen and (max-height: 600px) {
